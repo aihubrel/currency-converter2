@@ -1,0 +1,81 @@
+/* Reset default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and text styling */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #1f4265;
+    color: #333;
+    text-align: center;
+}
+
+/* Heading styling */
+.heading {
+    margin: 20px 0;
+    color: #d5dbe2;
+    font-size: 60px !important;
+}
+
+/* Container styling */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main section */
+.main {
+    padding: 20px;
+}
+
+/* Form group */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input field */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Prevent text wrapping in select options */
+.form-control option {
+    white-space: nowrap;
+}
+
+/* Button styling */
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 0.5px gray solid;
+    background-color:#1f4265;
+    color: rgb(196, 237, 255);
+}
+
+
+
+/* Center text */
+.text-center {
+    text-align: center;
+}
+
+/* Converted amount display */
+#finalAmount {
+    margin-top: 20px;
+}
+
+.finalValue {
+    color: green;
+    font-weight: bold;
+}
